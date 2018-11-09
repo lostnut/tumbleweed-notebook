@@ -1,0 +1,30 @@
+%%%%% Document configuration %%%%%
+\documentclass{article} %document class
+
+%%%%% Font configuration %%%%%
+\usepackage[utf8]{inputenc} %input encoding (from keyboard)
+\usepackage[T1]{fontenc} % font encoding (document generation)
+\renewcommand{\familydefault}{\sfdefault} % sans font family
+\usepackage{helvet} % use helvetica font
+
+%%%%% Page layout %%%%%
+\usepackage{fancyhdr} %headers and footers configuration
+\usepackage{geometry} %page layout (page layout must be set before headers/footers modifications)
+\geometry{
+        a4paper,
+        top=2cm,
+        bottom=2cm,
+        left=2cm,
+        right=2cm
+}
+\pagestyle{fancy}
+\fancyhf{} 
+\lhead{Tumbleweed}
+\chead{}
+\rhead{Tumbleweed-notebook}
+\lfoot{}
+\cfoot{}
+\rfoot{\thepage}
+
+
+
