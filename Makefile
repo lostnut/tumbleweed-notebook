@@ -11,7 +11,8 @@ OBJS = main.aux \
        main.fdb_latexmk \
        main.fls \
        main.log \
-       main.pdf
+       main.pdf \
+       main.synctex.gz
 
 all: 
 	$(LC) $(LFLAGS) $(MAIN)
